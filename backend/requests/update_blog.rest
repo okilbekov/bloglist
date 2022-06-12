@@ -1,0 +1,11 @@
+PUT http://localhost:3003/api/blogs/629c0237fef185feb74fc996
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXCJ9.eyJ1c2VybmFtZSI6Im1pa2UiLCJpZCI6IjYyOWJmNWFhYjkwMjMzZWQwNWNhN2JiYiIsImlhdCI6MTY1NDM5MzQwMH0.teAFha6idrvAftrpubHgqRLu4ArqRLRSBlal2T0hWRI
+
+{
+    "title": "Title is updated",
+    "author": "Test Author",
+    "url": "http://www.test.com",
+    "likes": 0,
+    "userId": "629bf5aab90233ed05ca7bbb"
+}

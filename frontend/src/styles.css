@@ -1,0 +1,51 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #f0eef1;
+  color: #050505;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+header {
+  background-color: #fffbfb;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  padding: 20px;
+}
+
+.main {
+  margin-top: 20px;
+}
+
+.btn-add {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  color: inherit;
+  background-color: #f0eef1;
+  transition: filter 0.15s ease-in-out;
+}
+
+.btn-add:hover {
+  filter: brightness(90%);
+  background-color: #f0eef1;
+  color: inherit;
+}
+
+.btn-add:active,
+.btn-add:focus {
+  background-color: #f0eef1;
+  color: inherit;
+}
+
+.btn-add {
+  font-size: 24px;
+  font-weight: 600;
+}
