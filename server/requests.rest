@@ -12,10 +12,10 @@ Content-Type: application/json
 GET http://localhost:3003/api/blogs
 
 ###
-GET http://localhost:3003/api/blogs/
+GET http://localhost:3003/api/blogs/63b6a65edbaa3c2e01fb714c
 
 ###
-DELETE http://localhost:3003/api/blogs/63d0e84c665e26805f03c639
+DELETE http://localhost:3003/api/blogs/63b6a65edbaa3c2e01fb714c
 
 ###
 PUT http://localhost:3003/api/blogs/63d3b145a9f63f3793bd04d2
