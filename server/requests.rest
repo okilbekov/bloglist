@@ -1,23 +1,24 @@
 POST http://localhost:3003/api/blogs
 Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvb3QiLCJpZCI6IjYzZDkzODIwZGE1ZTFiZWYwOTg3NjE5NCIsImlhdCI6MTY3NTM2MDU3M30.7aYg6IhOvz8mkBsk5do3yiB76Pz6VeZu5R4O3ufa5L8
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InF3ZXJ0eSIsImlkIjoiNjQwYTkyOWRjMWIwOGM4MTgxNDllNGQ4IiwiaWF0IjoxNjc4NDE1MTY3LCJleHAiOjE2Nzg0MTg3Njd9.34lSV9hJvup9qEKeazbisvSMzKWwcgltny1YMfIXZF8
 
 {
-	"title": "Test 3",
+	"title": "Test 111",
   	"author": "John Doe",
   	"url": "http://example.com",
   	"likes": 0,
-	"userId": "63d93820da5e1bef09876194"
+	"userId": "640a929dc1b08c818149e4d8"
 }
 
 ###
 GET http://localhost:3003/api/blogs
 
 ###
-GET http://localhost:3003/api/blogs/63dbdc5e28757cabc3dc855f
+GET http://localhost:3003/api/blogs/63dbdc5e28757cabc3dc855e
 
 ###
-DELETE http://localhost:3003/api/blogs/63d93af3ae9b8120a615b889
+DELETE http://localhost:3003/api/blogs/640a9582faa8e7b9e0b57d95
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvb3QiLCJpZCI6IjYzZDkzODIwZGE1ZTFiZWYwOTg3NjE5NCIsImlhdCI6MTY3ODQ5MjE2OCwiZXhwIjoxNjc4NDk1NzY4fQ.DTtsMRBVddVb4u5-b0IkZ6emcUChiH59I_xXhkjgexY
 
 ###
 PUT http://localhost:3003/api/blogs/63d3b145a9f63f3793bd04d2
@@ -35,9 +36,9 @@ POST http://localhost:3003/api/users
 Content-Type: application/json
 
 {
-    "username": "root",
-    "name": "Superuser",
-    "password": "salainen"
+    "username": "qwerty",
+    "name": "john",
+    "password": "123456"
 }
 
 ###
